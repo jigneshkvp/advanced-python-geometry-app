@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "geometry-game"
+version = "0.1.0"
+description = "Advanced Python Programming App"
+authors = ["Jignesh Panchal <jignesh_kvp@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "geometry_game"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
